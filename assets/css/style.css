@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/background.jpg);
+  }
+  
+  button { cursor:pointer}
+  
+  #animal-form {
+    text-align: center;
+  }
+  
+  label {
+    background-color: black;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  #content {
+    display: inline-flex;
+    margin: 10px;
+  }
+  
+  #animals {
+    display: flex;
+    flex-flow: wrap;
+  }
+  
+  #top {
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    margin: 10px;
+  }
+  
+  button {
+    background-color: greenyellow;
+    /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  #add-animal {
+    background-color: greenyellow;
+    /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+  }
